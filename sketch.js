@@ -19,6 +19,10 @@ function draw() {
   fill(255);
   ellipse(400,400,400)
 
+  drawSineAxis()
+  drawCosineAxis()
+  stroke('#000000');
+
   var x = orbitX + orbitRadius * cos(angle);
   var y = orbitY + orbitRadius * sin(angle);
   
@@ -44,5 +48,29 @@ function draw() {
   
   text("Cos: "+ 
   round(cos(-angle),2),x-30,150);
+}
 
+
+function drawSineAxis() {
+  stroke('#ff812f');
+  fill('#ff812f');
+  strokeWeight(2);
+
+  line(400, 150, 400, 650);
+  triangle(395, 150, 405, 150, 400, 140);
+
+  strokeWeight(1);
+  text("Sine", 410, 160)
+}
+
+function drawCosineAxis() {
+  stroke('#ff812f');
+  fill('#ff812f');
+  strokeWeight(2);
+
+  line(150, 400, 650, 400);
+  triangle(650, 395, 650, 405, 660, 400);
+
+  strokeWeight(1);
+  text("Cosine", 610,420)
 }
