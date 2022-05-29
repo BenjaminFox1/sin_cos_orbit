@@ -1,6 +1,8 @@
 # sin_cos_orbit
 [Simple Illustration](https://benjaminfox1.github.io/sin_cos_orbit/) of Sin and Cos (credit Pythagoras et al)
 
+Thanks to Amed Kino for his addition.
+
 <details>
   <p>
 ```JavaScript
