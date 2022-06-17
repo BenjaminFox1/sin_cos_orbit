@@ -4,10 +4,11 @@
 Thanks to Amed Kino for his addition.
 
 <details>
-  <p>
-```JavaScript
+<p>
 
-    // Sin and Cosine - An illustration of their path
+ ```javascript
+
+ // Sin and Cosine - An illustration of their path
 
 var orbitX = 400;
 var orbitY = 400;
